@@ -1,0 +1,88 @@
+#login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
+  background-repeat: no-repeat;
+  background-color: #05AF55;
+  background-size: cover;
+  /* filter: blur(5px); */
+}
+
+#login-page h1 {
+  color: #fff;
+  font-size: 62px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+#login-page div.box-form {
+  background-color: #25285c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#login-page .box-form h2 {
+  font-weight: bolder;
+  font-size: 32px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+#login-page div.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  width: 500px;
+}
+
+#login-page div.form-login > * {
+  margin: 5px
+}
+
+#login-page div.form-login a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-color: #05AF55;
+  padding: 5px;
+  margin: 5px 100px;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  transition: background-color 0.02s;
+}
+
+#login-page div.form-login a:hover {
+  background-color: #166459;
+}
+
+#login-page div.form-login svg {
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+#login-page div.form-login label {
+  font-size: 24px;
+  color: #fff;
+}
+
+#login-page div.form-login input[type=email], input[type=password] {
+  border-radius: 20px;
+  border: 5px solid #166459;
+  height: 30px;
+  font-size: 16px;
+  color: #000;
+  background-color: #A4ADBE;
+  text-align: center
+}
